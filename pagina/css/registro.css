@@ -1,0 +1,172 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    min-height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background:#1E1E1E;
+
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.contenedor{
+
+    width:950px;
+    height:750px;
+
+    display:flex;
+
+    border-radius:30px;
+    overflow:hidden;
+
+    box-shadow:0 0 20px rgba(0,0,0,.3);
+}
+
+/* IZQUIERDA */
+
+.formulario{
+
+    width:50%;
+
+    background:#F0EAE7;
+
+    padding:40px;
+}
+
+.formulario h1{
+
+    text-align:center;
+
+    font-size:55px;
+
+    margin-bottom:20px;
+
+    font-family:Georgia, serif;
+}
+
+.formulario label{
+
+    display:block;
+
+    margin-top:15px;
+    margin-bottom:8px;
+
+    font-weight:bold;
+
+    font-size:24px;
+}
+
+.input-box{
+
+    background:white;
+
+    height:50px;
+
+    display:flex;
+    align-items:center;
+
+    padding:0 15px;
+
+    border-radius:6px;
+}
+
+.input-box i{
+
+    font-size:20px;
+
+    color:#444;
+}
+
+.input-box input{
+
+    width:100%;
+
+    border:none;
+    outline:none;
+
+    margin-left:10px;
+
+    font-size:16px;
+
+    background:transparent;
+}
+
+/* BOTON */
+
+.btn{
+
+    width:200px;
+    height:55px;
+
+    display:block;
+
+    margin:35px auto 15px;
+
+    border:none;
+
+    border-radius:18px;
+
+    background:#00543D;
+
+    color:white;
+
+    font-size:26px;
+
+    font-family:Georgia, serif;
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+.btn:hover{
+
+    transform:scale(1.03);
+}
+
+/* LOGIN */
+
+.login-link{
+
+    text-align:center;
+
+    margin-top:15px;
+
+    font-size:16px;
+}
+
+.login-link a{
+
+    color:#00543D;
+
+    font-weight:bold;
+
+    text-decoration:none;
+}
+
+/* DERECHA */
+
+.panel-logo{
+
+    width:50%;
+
+    background:#00543D;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.panel-logo img{
+
+    width:300px;
+
+    max-width:80%;
+}
